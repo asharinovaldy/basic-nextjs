@@ -1,13 +1,9 @@
-import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Blog() {
   return (
-    <div>
-      <Head>
-        <title>Blog Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+    <Layout>
       <p>This is Blog Page</p>
-    </div>
+    </Layout>
   );
 }
