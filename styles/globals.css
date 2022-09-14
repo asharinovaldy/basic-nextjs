@@ -33,6 +33,12 @@ a {
   align-items: center;
 }
 
+.description-image {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: coral;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
