@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 
 export default function UserDetail() {
   return (
-    <Layout>
+    <Layout pageTitle="User Detail Page">
       <p>This is User Detail Page</p>
     </Layout>
   );
